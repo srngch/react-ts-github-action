@@ -1,0 +1,28 @@
+
+######### ######### ######### ######### ######### $ <- 50
+# type[(scope)]: Subject under 50 characters[(#issueNum)]
+#
+# Body(under 72 characters per line)
+# 'what' and 'why' instead of 'how'
+#
+# Footer
+# Resolves: #0
+# See also: #0, #0
+# Co-authored-by: name <name@mail.com>
+######### ######### ######### ######### ######### ######### ######### ##$ <- 72
+# === Subject ===
+#   "If applied, this commit will.. {subject}"
+#   Capitalize first letter, imperative, end without a period
+# === Types(about business logic) ===
+#   add       : a new feature is introduced with the changes
+#   fix       : a bug fix has occurred
+#   refactor  : refactored code that neither fixes a bug nor adds a feature
+# === Types(not about business logic) ===
+#   style     : code formatting(white space, semi-colons)
+#   docs      : documentation
+#   test      : including new or correcting previous tests
+#   perf      : performance improvements
+#   chore     : etc.(maintain, packages, etc.)
+# === Set commit template in local ===
+# $ git config commit.template ./.gitmessage.txt
+################################################################################
