@@ -2,6 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Set up vscode to use typescript
+
+Install the following extensions:
+[ZipFS](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs)
+
+Run the following command to install the typescript sdk:
+
+```shell
+$ yarn dlx @yarnpkg/sdks vscode
+```
+
+Select the typescript sdk in vscode:
+
+1. Open the command palette (Cmd+Shift+P)
+2. Select "TypeScript: Select TypeScript Version"
+3. Select "Use Workspace Version"
+
 ## Available Scripts
 
 In the project directory, you can run:
