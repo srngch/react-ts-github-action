@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Set up github pages
+
+Github actions are used to run the tests and build the project. The build is then deployed to github pages.
+
+Change the following in the `package.json` file:
+
+```json
+{
+  // ...
+  "homepage": "https://<username>.github.io/<repo-name>"
+  // ...
+}
+```
+
+Set up github pages:
+
+1. Go to the settings page of the repo
+2. Select the "Pages" tab
+3. Select the "gh-pages" branch and save
+
 ## Set up vscode to use typescript
 
 Install the following extensions:
