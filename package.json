@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://srngch.github.io/react-ts-github-action",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@types/jest": "^27.0.1",
@@ -41,5 +40,12 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@types/eslint": "^8",
+    "@types/testing-library__jest-dom": "^5",
+    "eslint": "^8.40.0",
+    "eslint-config-react-app": "^7.0.1"
+  }
 }
